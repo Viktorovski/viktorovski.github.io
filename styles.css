@@ -11,10 +11,11 @@
 }
 #title
 {
-float: left;
+	float: center;
 }
 #navigation
 {
+	float: center;
 }
 .nav
 {
