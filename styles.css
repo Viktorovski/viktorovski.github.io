@@ -2,11 +2,21 @@
 {
 	padding: 25px 50px 75px 100px;
 }
+#header
+{
+}
+#logo
+{
+	float:left;
+}
+#title
+{
+float: left;
+}
 #navigation
 {
-
 }
-#nav
+.nav
 {
 	display: inline-table;
 }
@@ -21,8 +31,7 @@
 }
 #footer 
 {
-    background-color:black;
-    color:white;
+    background-color:#eeeeee;
     clear:both;
     text-align:center;
     padding:5px; 
