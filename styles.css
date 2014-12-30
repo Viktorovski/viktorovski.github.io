@@ -1,0 +1,29 @@
+#content
+{
+	padding: 25px 50px 75px 100px;
+}
+#navigation
+{
+
+}
+#nav
+{
+	display: inline-table;
+}
+#services
+{
+    background-color:#eeeeee;
+    float:left;
+}
+#context
+{
+    float:left; 
+}
+#footer 
+{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
