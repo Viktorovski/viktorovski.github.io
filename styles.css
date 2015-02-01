@@ -1,39 +1,101 @@
 #content
 {
-	padding: 25px 50px 75px 100px;
+	padding-top: 25px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 #header
 {
+	margin-left: auto;
+    margin-right: auto;
 }
-#logo
+#banner
 {
-	float:left;
+	height:85px;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding: 2px;
 }
 #title
 {
 	float: center;
 }
-#navigation
-{
-	float: center;
+
+div#navigation {
+   margin: 0;
+   padding: .3em 0 .3em 0;
+   background: #3333FF;
+   width: 100%;
+   text-align: center;
 }
-.nav
-{
-	display: inline-table;
+
+div#navigation ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
 }
+
+div#navigation ul li {
+   margin: 0;
+   padding: 0;
+   display: inline;
+}
+
+div#navigation ul a:link{
+   margin: 0;
+   padding: .3em .7em .3em .7em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: white;
+}
+
+div#navigation ul a:active{
+   margin: 0;
+   padding: .3em .7em .3em .7em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: white;
+}
+
+div#navigation ul a:visited{
+   margin: 0;
+   padding: .3em .7em .3em .7em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: white;
+} 
+
+div#navigation ul a:hover{
+   margin: 0;
+   padding: .3em .7em .3em .7em;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: medium;
+   color: white;
+   background-color: #3300CC;
+}
+
 #services
 {
-    background-color:#eeeeee;
+    background-color:#eedddd;
     float:left;
 }
 #context
 {
+	padding-left: 50px;
+	padding-right: 50px;
     float:left; 
 }
 #footer 
 {
-    background-color:#eeeeee;
+    background-color:#3333FF;
+	color: white;
     clear:both;
     text-align:center;
-    padding:5px; 
+    padding:3px; 
 }
